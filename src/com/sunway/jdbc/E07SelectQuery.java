@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class E04SelectQuery {
+public class E07SelectQuery {
 
 	public static void main(String[] args) {
 		try {

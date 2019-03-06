@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class E06UpdateQuery {
+public class E08UpdateQuery {
 
 	public static void main(String[] args) {
 		try {

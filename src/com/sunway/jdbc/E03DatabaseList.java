@@ -5,12 +5,12 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class E03TableList {
+public class E03DatabaseList {
 
 	public static void main(String[] args) {
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sunway-java-ee", "root", "mysql");
-			ResultSet rs = conn.createStatement().executeQuery("show tables");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "mysql");
+			ResultSet rs = conn.createStatement().executeQuery("show databases");
 			while (rs.next()) {
 				System.out.println(rs.getString(1));
 			}
