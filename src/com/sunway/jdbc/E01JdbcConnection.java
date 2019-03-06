@@ -3,7 +3,7 @@ package com.sunway.jdbc;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class JdbcConnection {
+public class E01JdbcConnection {
 
 	public static void main(String[] args) {
 		try {

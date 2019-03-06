@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class InsertQuery {
+public class E05InsertQuery {
 
 	public static void main(String[] args) {
 		try {

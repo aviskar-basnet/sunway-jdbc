@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class PreparedStatementExample {
+public class E08PreparedStatementExample {
 
 	public static void main(String[] args) {
 		try {

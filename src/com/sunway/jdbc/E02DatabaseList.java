@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class DatabaseList {
+public class E02DatabaseList {
 
 	public static void main(String[] args) {
 		try {
